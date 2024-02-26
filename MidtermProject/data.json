@@ -1,0 +1,22 @@
+{
+    "languages": [
+        {
+            "languageid": "A001",
+            "title": "Java",
+            "year": 1995,
+            "url": "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo-640x400.png"
+        },
+        {
+            "languageid": "A002",
+            "title": "C",
+            "year": 1972,
+            "url": "https://media.licdn.com/dms/image/D5612AQEHGZUx2evvxg/article-cover_image-shrink_720_1280/0/1688275415053?e=1714608000&v=beta&t=n9KeyLD8sXh1O48dbVEAjY4IF8kv4MhY_heZQjd8wMo"
+        },
+        {
+            "languageid": "A003",
+            "title": "JavaScript",
+            "year": 1995,
+            "url": "https://www.orientsoftware.com/Themes/OrientSoftwareTheme/Content/Images/blog/2021-12-16/what-can-you-do-with-javascript.jpg"
+        }
+    ]
+  }
