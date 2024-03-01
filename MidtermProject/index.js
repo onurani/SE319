@@ -29,3 +29,18 @@ function loadLanguages(mylanguages){
         mainContainer.appendChild(division);
     }
 }
+
+function randomizer(){
+    let rando = Math.floor(Math.random() *3);
+
+    console.log(rando);
+    if(rando ===1 ){
+        window.location.href="./java.html";
+    } 
+    else if (rando ===2){
+        window.location.href="./c.html";    
+    }
+    else{
+        window.location.href="./javascript.html";    
+    }
+}

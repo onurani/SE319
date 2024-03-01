@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Java Language</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+    <!--
+        CSS- we still need css later
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="d-flex justify-content-between">
+            <span
+                style="font-size: xxx-large; font-family:Georgia, 'Times New Roman', Times, serif; padding-left: 40px; line-height: 100px;">Learn Java Language</span>
+
+                <ul class="nav nav-pills"
+                style="line-height: 40px; padding-top: 20px; padding-right: 20px; font-family: 'Times New Roman', Times, serif; font-size: larger;">
+                <li class="nav-item"><a href="./index.html" class="nav-link"><strong>Home</strong></a></li>
+                <li class="nav-item"><a href="./java.html" class="nav-link active" aria-current="page"><strong>Java</strong></a></li>
+                <li class="nav-item"><a href="./c.html" class="nav-link"><strong>C</strong></a></li>
+                <li class="nav-item"><a href="./javascript.html" class="nav-link"><strong>JavaScript</strong></a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link"><strong>About Us</strong></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <script src="./java.js"></script>
+
+    <div id="content">
+        <form id="learningjavalanguage">
+            <label for="user-inputx">int x = </label>
+            <input type="number" id="user-inputx" required>
+
+            
+            <label for="user-inputy">int y = </label>
+            <input type="number" id="user-inputy" required>
+
+            <label for="javamath">x</label>
+            <select id="javamath">
+                <option value="Add">Add</option>
+                <option value="Multiply">Multiply</option>
+                <option value="Subtract">Subtract</option>
+            </select>
+            <label for="javamath">y</label>
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div id="result">
+            Result: <span id="resultval"></span>
+        </div>
+        
+        <div id="mathimage">   
+            <img src="./images/javalanguagelogo.jpg" alt="Math Equation">
+        </div>
+        
+
+        <div id="mathver">
+            <!--Text display here, handled by js file-->
+        </div>
+        <div id="moremath">
+            <!--Text formula display here, handled by js file-->
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--now starting string training-->
+    <!--
+    <div id="content">
+        
+        <form id="learningjavastring">
+            -->
+            <label for="user-stringinputx">Please input first word: </label>
+            <input type="text" id="user-stringinputx" required>
+
+            <label for="javastring">x</label>
+            <select id="javastring">
+                <option value="concat">concat</option>
+                <option value="equals">equals</option>
+                <option value="equalsIgnoreCase">equalsIgnoreCase</option>
+            </select>
+            <label for="javastring">y</label>
+
+            <label for="user-stringinputy">Please input second word: </label>
+            <input type="text" id="user-stringinputy" required>
+
+            <button type="submit">Evaulate</button>
+            <!--
+        </form>
+        -->
+
+        <div id="result">
+            Result: <span id="stringresultval"></span>
+        </div>
+        
+        <div id="stringimage">   
+            <img src="./images/javalanguagelogo.jpg" alt="String Image">
+        </div>
+        
+
+        <div id="stringver">
+            <!--Text display here, handled by js file-->
+        </div>
+        <div id="morestring">
+            <!--Text formula display here, handled by js file-->
+        </div>
+        <!--
+    </div>
+    -->
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">&copy; Team 115</p>
+        </footer>
+    </div>
+</body>
+
+</html>
