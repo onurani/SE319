@@ -1,21 +1,21 @@
 [
     {
       "id": "Add",
-      "imagePath": "./images/javamathadd.jpg",
+      "imagePath": "./images/javascriptmathadd.jpg",
       "text": "Adds x and y",
       "formula": "x+y"
     },
     {
       "id": "Subtract",
-      "imagePath": "./images/javamathsubtract.jpg",
+      "imagePath": "./images/javascriptmathsubtract.jpg",
       "text": "Subtracts y from x",
       "formula": "x-y"
     },
     {
         "id": "Multiply",
-        "imagePath": "./images/javamathmultiply.jpg",
+        "imagePath": "./images/javascriptmathmultiply.jpg",
         "text": "Multiplies x and y",
-        "formula": "x*y"
+        "formula": "x * y"
     },
 
 
