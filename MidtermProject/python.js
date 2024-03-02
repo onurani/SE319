@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('javascriptlanguage.json')
+    fetch('python.json')
       .then(response => response.json())
       .then(data => {
     // Math operations
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { label: 'Subtract', value: 'Subtract' }
     ];
   
-    const mathDropdown = document.getElementById('javascriptmath');
+    const mathDropdown = document.getElementById('pythonmath');
     mathOperations.forEach(operation => {
         const option = document.createElement('option');
         option.textContent = operation.label;
@@ -21,12 +21,12 @@ document.addEventListener('DOMContentLoaded', function () {
   
     // String operations
     const stringOperations = [
-        { label: 'toUpperCase', value: 'toUpperCase' },
-        { label: 'length', value: 'length' },
-        { label: 'toLowerCase', value: 'toLowerCase' }
+        { label: 'upper', value: 'upper' },
+        { label: 'len', value: 'len' },
+        { label: 'lower', value: 'lower' }
     ];
   
-    const stringDropdown = document.getElementById('javascriptstring');
+    const stringDropdown = document.getElementById('pythonstring');
     stringOperations.forEach(operation => {
         const option = document.createElement('option');
         option.textContent = operation.label;
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
         const userinputx = parseFloat(document.getElementById('user-inputx').value);
         const userinputy = parseFloat(document.getElementById('user-inputy').value);
-        const operation = document.getElementById('javascriptmath').value;
+        const operation = document.getElementById('pythonmath').value;
   
         let result;
         if (operation === 'Add') {
@@ -70,14 +70,14 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
   
         const inputX = document.getElementById('user-stringinputx').value;
-        const operation = document.getElementById('javascriptstring').value;
+        const operation = document.getElementById('pythonstring').value;
   
         let result;
-        if (operation === 'toUpperCase') {
+        if (operation === 'upper') {
             result = inputX.toUpperCase();
-        } else if (operation === 'length') {
+        } else if (operation === 'len') {
             result = inputX.length;
-        } else if (operation === 'toLowerCase') {
+        } else if (operation === 'lower') {
             result = inputX.toLowerCase();
         }
   

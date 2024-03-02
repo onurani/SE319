@@ -38,7 +38,7 @@ function randomizer(){
         window.location.href="./java.html";
     } 
     else if (rando ===2){
-        window.location.href="./c.html";    
+        window.location.href="./python.html";    
     }
     else{
         window.location.href="./javascript.html";    
