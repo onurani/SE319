@@ -23,7 +23,7 @@ function loadLanguages(mylanguages){
         division.innerHTML = `
         <h3>${title}
         ${year}
-        <img src = ${url} />
+        <img src = ${url} width="250" />
             `;
 
         mainContainer.appendChild(division);
