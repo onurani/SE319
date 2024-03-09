@@ -1,0 +1,40 @@
+[
+    {
+      "id": "Add",
+      "imagePath": "./images/javamathadd.jpg",
+      "text": "Adds x and y",
+      "formula": "x+y"
+    },
+    {
+      "id": "Subtract",
+      "imagePath": "./images/javamathsubtract.jpg",
+      "text": "Subtracts y from x",
+      "formula": "x-y"
+    },
+    {
+        "id": "Multiply",
+        "imagePath": "./images/javamathmultiply.jpg",
+        "text": "Multiplies x and y",
+        "formula": "x*y"
+    },
+
+
+    {
+        "id": "concat",
+        "imagePath": "./images/javastringconcat.jpg",
+        "text": "Concanate two strings",
+        "formula": "x.concat(y)"
+    },
+      {
+        "id": "equals",
+        "imagePath": "./images/javastringequals.jpg",
+        "text": "Compares two strings with strict case adherence",
+        "formula": "x.equals(y)"
+      },
+      {
+          "id": "equalsIgnoreCase",
+          "imagePath": "./images/javastringequalsIgnoreCase.jpg",
+          "text": "Compares two strings regardless of case",
+          "formula": "x.equalsIgnoreCase(y)"
+      }
+]

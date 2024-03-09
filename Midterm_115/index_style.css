@@ -1,0 +1,112 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Luminari', fantasy;
+    line-height: 1.6;
+    background-color: #bdd7ff; /* Light Gray background color */
+    color: #2b2b2b; /* Dark Gray text color */
+}
+
+/* Header styling */
+header {
+    background-color: #e33535; /* Blue color */
+    color: #560000;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #2980b9; /* Light Gray text color */
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nav-pills .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover or when active */
+    color: #add3ff; /* Light Gray text color */
+}
+
+/* Main content styling */
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Add some space around the content */
+    background-color: #fff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+}
+
+h2 {
+    color: #3498db; /* Blue color */
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #2ecc71; /* Emerald Green color */
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #27ae60; /* Slightly darker green on hover */
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark Gray background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em; /* Decrease font size on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Decrease font size on smaller screens */
+    }
+
+    button {
+        padding: 12px 16px; /* Adjust button padding on smaller screens */
+    }
+}

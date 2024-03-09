@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Palatino', serif;
+}
+
+body {
+    font-family: 'Palatino', serif;
+    line-height: 1.6;
+    background-color: #f4ed9f;
+}
+
+/* Header styling */
+header {
+    background-color: #ffc107; /* Bootstrap's warning color */
+    color: #212529; /* Bootstrap's text color */
+    padding: 20px;
+}
+
+h1 {
+    color: #ffc107; /* Bootstrap's warning color */
+}
+
+.nav-pills .nav-link {
+    color: #212529; /* Bootstrap's text color */
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    background-color: #e0a800; /* Slightly darker yellow on hover or when active */
+    color: #fff;
+}
+
+/* Content styling */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #000000; /* Bootstrap's primary color */
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #28a745; /* Bootstrap's success color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; /* Slightly darker green on hover */
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa; /* Bootstrap's light color */
+    color: #6c757d; /* Bootstrap's secondary text color */
+    text-align: center;
+    padding: 20px;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
