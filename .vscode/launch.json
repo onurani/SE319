@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/personal/ozair/college/iowastate/sophmore/SE319/MidtermProject",
-      "program": "d:/personal/ozair/college/iowastate/sophmore/SE319/MidtermProject/build/Debug/outDebug",
+      "cwd": "d:/personal/ozair/college/iowastate/sophmore/CPRE288/Labs/Final_Project_3",
+      "program": "d:/personal/ozair/college/iowastate/sophmore/CPRE288/Labs/Final_Project_3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
